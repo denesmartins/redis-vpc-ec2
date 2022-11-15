@@ -1,0 +1,11 @@
+app_name                      = "my-app-name-test"
+replication_group_id          = "my-app-rep-group-id"
+num_node_groups               = 1
+replicas_per_node_group       = 1
+# subnet_ids                    = ["subnet-0a4e540d027d61bba"]
+# vpc_id                        = "vpc-058632dcfca898e01"
+parameter_group_name          = "default.redis5.0.cluster.on"
+cidr_blocks                   = ["10.0.0.0/16"]
+engine_version                = "5.0.6"
+maintenance_window            = "sun:05:00-sun:09:00"
+environment                   = "DEV"
